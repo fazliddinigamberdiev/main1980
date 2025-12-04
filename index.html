@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+    <link rel="stylesheet" href="remake.css" />
+    <title>mani 1920 second edition</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navigation">
+        <img src="img/logo.png" alt="" class="navigation__img" />
+        <a href="#aboutus" class="navigation__links grater">Об Ассоциации </a>
+        <a href="#projects" class="navigation__links grater">Проекты </a>
+        <a href="#team" class="navigation__links grater">Команда </a>
+        <a href="#membership" class="navigation__links grater">Членство </a>
+        <a href="#articles" class="navigation__links grater">Пресса о нас </a>
+        <a href="#partners" class="navigation__links grater">Партнеры </a>
+        <a href="#contacts" class="navigation__links grater">Контакты </a>
+        <form>
+          <input
+            class="search"
+            type="text"
+            placeholder="поиск..."
+            name="search"
+          />
+          <button class="search__btn" type="submit">
+            <img src="img/search.png" alt="" />
+          </button>
+        </form>
+        <a href="#" class="navigation__links">En</a>
+      </nav>
+    </div>
+    <div id="aboutus" class="aboutusslider">
+      <div class="aboutusslider__item">
+        <img src="img/firstpagebackground.png" alt="" />
+      </div>
+      <div class="aboutusslider__item">
+        <img src="img/firstpagesubmainbackground.png" alt="" />
+      </div>
+      <div class="aboutusslider__item">
+        <img src="img/firstpagebackground.png" alt="" />
+      </div>
+      <div class="aboutusslider__item">
+        <img src="img/firstpagesubmainbackground.png" alt="" />
+      </div>
+    </div>
+    <div class="content">
+      <img src="img/logo_white.png" alt="" class="content__img" />
+      <h1 class="content__heading">Приветствуем на нашем сайте!</h1>
+      <p class="content__text">
+        В Узбекистане создана Ассоциация Ландшафтного Искусства Узбекистана,
+        которая объединяет профессионалов в сфере ландшафтного дизайна - это
+        проектировщики, дизайнеры, питомниководы, скульпторы, кузнецы... Наша
+        общая задача - сделать среду обитания прекрасной!
+      </p>
+      <a href="#" class="content__btn">Подробнее</a>
+    </div>
+    <div class="container">
+      <h1 id="projects" class="projects__heading">Проекты</h1>
+      <div class="projects__container">
+        <div class="container__img">
+          <img id="img1" src="img/bukhara.png" alt="" />
+          <img id="img2" src="img/bukhara2.png" alt="" />
+          <img id="img3" src="img/bukhara3.png" alt="" />
+        </div>
+        <div onmouseenter="hover3()" class="container__infos" id="project__one">
+          <div id="line1"></div>
+          <h1 class="infos__title">
+            Проект общественной инициативы сотрудников ЕБРР Зеленая Бухара
+          </h1>
+          <p class="infos__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            cursus euismod neque vitae porttitor. Nulla a dictum augue. Fusce
+            tincidunt est urna, in elementum eros vehicula Phasellus tristique
+            eleifend massa pharetra mollis.
+          </p>
+        </div>
+        <div onmouseenter="hover()" class="container__infos" id="project__two">
+          <div id="line2"></div>
+          <h1 class="infos__title">
+            Стартуем! Конкурс ландшафтных проектов и реализованных садов
+            «PROЛАНДШАФТ 2021»
+          </h1>
+          <p class="infos__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            cursus euismod neque vitae porttitor. Nulla a dictum augue. Fusce
+            tincidunt est urna, in elementum eros vehicula Phasellus tristique
+            eleifend massa pharetra mollis.
+          </p>
+        </div>
+        <div
+          onmouseenter="hover2()"
+          class="container__infos"
+          id="project__three"
+        >
+          <div id="line3"></div>
+          <h1 class="infos__title">
+            Жюри Конкурса ландшафтных проектов и реализованных садов
+            «PROландшафт 2021»
+          </h1>
+          <p class="infos__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            cursus euismod neque vitae porttitor. Nulla a dictum augue. Fusce
+            tincidunt est urna, in elementum eros vehicula Phasellus tristique
+            eleifend massa pharetra mollis.
+          </p>
+        </div>
+      </div>
+      <a href="" class="projects__btn content__btn">Все проекты</a>
+      <h1 id="team" class="team__heading projects__heading">Наша команда</h1>
+    </div>
+    <div class="thirdpage__container">
+      <div class="container__member">
+        <div class="member__img"></div>
+        <h1 class="member__name">Имя Фамилия</h1>
+        <p class="member__obligation">должность</p>
+      </div>
+      <div class="container__member">
+        <div class="member__img"></div>
+        <h1 class="member__name">Имя Фамилия</h1>
+        <p class="member__obligation">должность</p>
+      </div>
+      <div class="container__member">
+        <div class="member__img"></div>
+        <h1 class="member__name">Имя Фамилия</h1>
+        <p class="member__obligation">должность</p>
+      </div>
+      <div class="container__member">
+        <div class="member__img member__img-active"></div>
+        <h1 class="member__name">Татьяна Югай</h1>
+        <p class="member__obligation">Председатель ассоциации</p>
+      </div>
+      <div class="container__member">
+        <div class="member__img"></div>
+        <h1 class="member__name">Имя Фамилия</h1>
+        <p class="member__obligation">должность</p>
+      </div>
+      <div class="container__member">
+        <div class="member__img"></div>
+        <h1 class="member__name">Имя Фамилия</h1>
+        <p class="member__obligation">должность</p>
+      </div>
+    </div>
+    <div id="membership" class="membership">
+      <div class="container">
+        <h1 class="membership__heading projects__heading">Членство</h1>
+        <p class="membership__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ligula
+          mauris, tempus quis porttitor in, sodales nec quam. Vestibulum
+          elementum et metus at sollicitudin. Integer semper ipsum urna, et
+          efficitur erat congue in. Etiam accumsan euismod bibendum. Integer
+          accumsan in felis nec laoreet. Fusce ut convallis ante. Proin laoreet
+          sed leo in rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit.
+        </p>
+        <div class="card__holder">
+          <img src="img/card.png" alt="" class="holder__img" />
+          <h2 class="holder__heading">Стать членом ассоциации</h2>
+          <a href="" class="holder__btn content__btn">Присоединиться</a>
+        </div>
+      </div>
+    </div>
+    <h1 id="articles" class="fifthpage__heading projects__heading">
+      Пресса о нас
+    </h1>
+    <div class="fifthpage__varuable">
+      <div class="varuable__first">
+        <img
+          src="img/pressaimgone.png"
+          alt="Article image"
+          class="first__img"
+        />
+        <h1 class="first__heading">
+          Maecenas cursus euismod neque vitae porttitor.
+        </h1>
+        <p class="first__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+          cursus euismod neque vitae porttitor. Nulla a dictum augue.
+        </p>
+      </div>
+      <div class="varuable__first">
+        <img
+          src="img/pressaimgtwo.png"
+          alt="Article image"
+          class="first__img"
+        />
+        <h1 class="first__heading">
+          Eaque incidunt officiis harum ipsam rerum ipsame.
+        </h1>
+        <p class="first__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+          cursus euismod neque vitae porttitor. Nulla a dictum augue.
+        </p>
+      </div>
+      <div class="varuable__first">
+        <img
+          src="img/pressaimgthree.png"
+          alt="Article image"
+          class="first__img"
+        />
+        <h1 class="first__heading">
+          Maecenas cursus euismod neque vitae porttitor.
+        </h1>
+        <p class="first__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+          cursus euismod neque vitae porttitor. Nulla a dictum augue.
+        </p>
+      </div>
+      <div class="varuable__first">
+        <img
+          src="img/pressaimgfour.png"
+          alt="Article image"
+          class="first__img"
+        />
+        <h1 class="first__heading">
+          Eaque incidunt officiis harum ipsam rerum ipsame.
+        </h1>
+        <p class="first__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+          cursus euismod neque vitae porttitor. Nulla a dictum augue.
+        </p>
+      </div>
+      <div class="varuable__first">
+        <img
+          src="img/pressaimgone.png"
+          alt="Article image"
+          class="first__img"
+        />
+        <h1 class="first__heading">
+          Maecenas cursus euismod neque vitae porttitor.
+        </h1>
+        <p class="first__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+          cursus euismod neque vitae porttitor. Nulla a dictum augue.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <a href="#" class="fifthpage__btn content__btn">Все статьи</a>
+      <h1 id="partners" class="partners__heading projects__heading">
+        Партнеры
+      </h1>
+    </div>
+    <div class="partners">
+      <img src="img/partnerone.png" alt="" class="partners__img" />
+      <img src="img/partnertwo.png" alt="" class="partners__img" />
+      <img src="img/partnerthree.png" alt="" class="partners__img" />
+      <img src="img/partnerfour.png" alt="" class="partners__img" />
+      <img src="img/partnerfive.png" alt="" class="partners__img" />
+      <img src="img/partnersix.png" alt="" class="partners__img" />
+      <img src="img/partnerseven.png" alt="" class="partners__img" />
+    </div>
+
+    <div id="contacts" class="footer">
+      <div class="footer__contacts">
+        <div class="contacts__info">
+          <img
+            src="img/logo_white.png"
+            alt="Some details about the company and Logo"
+            class="info__img"
+          />
+          <p class="info__details">
+            Адрес: : г.Ташкент, Бектемирский район, СВТ «Мироб Богбон», улица
+            Солнечная, дом 18.
+          </p>
+          <p class="info__details">Тел: +99899 538-87-04</p>
+          <p class="info__details">Email: ECO-Ali.uz@yandex.ru</p>
+        </div>
+        <div class="contacts__info">
+          <h1 class="info__heading">Меню</h1>
+          <a href="#aboutus" class="info__links">Об Ассоциации</a>
+          <a href="#projects" class="info__links">Проекты</a>
+          <a href="#team" class="info__links">Команда</a>
+        </div>
+        <div class="contacts__info contacts__info-continuation">
+          <a href="#membership" class="info__links">Членство</a>
+          <a href="#partners" class="info__links">Партнеры</a>
+          <a href="#contacts" class="info__links">Контакты</a>
+        </div>
+        <div class="contacts__info contacts__info-socialmedia">
+          <h1 class="info__heading">Наши соц. сети</h1>
+          <div class="info__socialmedia">
+            <a href="#" class="socialmedia__btn">
+              <img
+                src="img/telegram.png"
+                alt="telegram logo"
+                class="btn__img-telegram"
+              />
+            </a>
+            <a href="#" class="socialmedia__btn">
+              <img
+                src="img/facebook.png"
+                alt="facebook logo"
+                class="btn__img-telegram"
+              />
+            </a>
+            <a href="#" class="socialmedia__btn">
+              <img
+                src="img/twitter.png"
+                alt="twitter logo"
+                class="btn__img-telegram"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="slick.min.js"></script>
+    <script src="remake.js"></script>
+  </body>
+</html>
